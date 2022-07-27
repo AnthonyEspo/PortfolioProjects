@@ -74,7 +74,7 @@ FROM [AirBnB].[dbo].[listings]
 --/Join create a my file data file. Join of view new_listings and calendar.
 
 CREATE VIEW final_listing AS
-SELECT TOP(10) *
+SELECT *
 FROM new_listing
 OUTER JOIN [AirBnB].[dbo].[calendar] 
 ON	new_listing.id=calendar.listing_id
