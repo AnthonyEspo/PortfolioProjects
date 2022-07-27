@@ -1,4 +1,4 @@
---/ Data sources from http://insideairbnb.com/get-the-data/
+--/Data sources from http://insideairbnb.com/get-the-data/
 
 --/Data Preperation of listings.xlsx
 
@@ -99,7 +99,7 @@ FROM final_listing
 WHERE number_of_reviews = '0'
 
 
---/ Average of all seven scores to get an overall rating.
+--/Average of all seven scores to get an overall rating.
 
 SELECT
 id,
@@ -118,7 +118,7 @@ ORDER BY id
 
 
 
- --/ Export issue with above. Copied from results pane and pasted in excel. Checked row count via below quer
+ --/Export issue with above. Copied from results pane and pasted in excel. Checked row count via below quer
 
 
 SELECT
